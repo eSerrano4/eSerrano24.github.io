@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body {
+    font-family: 'Century Gothic';
+    //background-color: ThreeDDarkShadow;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Legacy-code.jpg");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero{
+
+    position: absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+
+header {
+    background-color: forestgreen;
+    height:100hv;
+    background-position:center;
+    background-size:cover;
+}
+
+h1{
+    color:aliceblue;
+}
+
+.main-nav{
+    list-style:none;
+    float:right;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left:40px;
+}
+
+.main-nav li a{
+    color:white;
+    text-decoration:none;
+    font-size:110%;
+    font-weight:bold;
+}
+
