@@ -7,10 +7,10 @@
 body {
     font-family: 'Century Gothic';
     //background-color: ThreeDDarkShadow;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Legacy-code.jpg");
-    height:100vh;
-    background-position: center;
-    background-size: cover;
+    //background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Legacy-code.jpg");
+    //height:100vh;
+    //background-position: center;
+    //background-size: cover;
 }
 
 .hero{
@@ -23,11 +23,12 @@ body {
 
 }
 
-header {
-    background-color: forestgreen;
-    height:100hv;
-    background-position:center;
-    background-size:cover;
+header{
+    //background-color: forestgreen;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Legacy-code.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
 }
 
 h1{
@@ -37,11 +38,13 @@ h1{
 .main-nav{
     list-style:none;
     float:right;
+    margin-top:60px;
+    margin-right:30px;
 }
 
 .main-nav li{
     display: inline-block;
-    margin-left:40px;
+    margin-left:60px;
 }
 
 .main-nav li a{
@@ -50,4 +53,38 @@ h1{
     font-size:110%;
     font-weight:bold;
 }
+
+.main-nav li a:hover{
+    color:red;
+    border-bottom:2px solid red;
+    transition:all 0.5s ease-in;
+    padding:5px 0;
+}
+
+.logo img{
+    height:100px;
+    float:left;
+    margin-left:30px;
+    margin-top:30px;
+}
+
+
+.btn{
+    border:2px solid lightblue;
+    color: silver;
+    text-decoration:none;
+    padding:5px 5px;
+    border-radius:10px;
+}
+
+.button-hobbies{
+    margin-top:20px;
+}
+
+.aboutMe{
+    width:70%;
+    margin-left:15%;
+}
+
+
 
