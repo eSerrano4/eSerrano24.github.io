@@ -4,6 +4,10 @@
 
 }
 
+h1{
+    font-weight:bold;
+}
+
 body {
     font-family: 'Century Gothic';
     //background-color: ThreeDDarkShadow;
@@ -26,9 +30,10 @@ body {
 header{
     //background-color: forestgreen;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Legacy-code.jpg");
-    height: 100vh;
-    background-position: center;
+    //height: 100vh;
+    //background-position: center;
     background-size: cover;
+    
 }
 
 h1{
@@ -71,14 +76,16 @@ h1{
 
 .btn{
     border:2px solid lightblue;
-    color: silver;
+    color: blue;
     text-decoration:none;
     padding:5px 5px;
     border-radius:10px;
+    
 }
 
 .button-hobbies{
     margin-top:20px;
+    left:inherit;
 }
 
 .aboutMe{
