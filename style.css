@@ -69,7 +69,7 @@ h1{
 #mySlogan{
     //margin-right:300px;
    // position:center;
-   left:10px;
+   margin-left:-10px;
 }
 .logo img{
     height:300px;
