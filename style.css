@@ -20,10 +20,10 @@ body {
 .hero{
 
     position: absolute;
-    width:1140px;
+    //width:1140px;
     top:50%;
     left:45%;
-    transform:translate(-50%,-50%);
+    //transform:translate(-50%,-50%);
 
 }
 
@@ -37,14 +37,14 @@ header{
 }
 
 h1{
-    color:aliceblue;
+    color:honeydew;
 }
 
 .main-nav{
     list-style:none;
     float:right;
-    margin-top:60px;
-    margin-right:30px;
+    margin-top:30px;
+    margin-right:60px;
 }
 
 .main-nav li{
@@ -66,10 +66,16 @@ h1{
     padding:5px 0;
 }
 
+#mySlogan{
+    //margin-right:300px;
+   // position:center;
+   left:10px;
+}
 .logo img{
     height:300px;
+    //width:200px;
     float:left;
-    margin-left:30px;
+    margin-left:50px;
     margin-top:30px;
 }
 
@@ -81,17 +87,18 @@ h1{
     padding:5px 5px;
     border-radius:10px;
     
+    
 }
 
 .button-hobbies{
-    margin-top:20px;
-    left:inherit;
+    //top:150px;
+    margin-top:10px;
+    margin-left:10px;
 }
 
 .aboutMe{
     width:70%;
     margin-left:15%;
 }
-
 
 
