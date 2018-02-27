@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+header{
+
+}
+
+body {
+    font-family: 'Century Gothic';
+    //background-color: ThreeDDarkShadow;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.3)),url("DEVLogo.PNG");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
