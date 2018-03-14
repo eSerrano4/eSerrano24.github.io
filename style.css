@@ -58,18 +58,15 @@ header{
 
 
 .btn{
-    border:2px solid lightblue;
-    color: dodgerblue;
+    color: white;
     text-decoration:none;
     padding:5px 5px;
     border-radius:10px;
+    font-weight: bold;
+    background-color: dodgerblue;
     
     
-}
-
-.button-hobbies{
-    padding: 8px;
-}
+}*
 
 .aboutMe{
     width:70%;
