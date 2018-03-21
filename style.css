@@ -12,7 +12,7 @@ body {
 
 
 
-header{
+/*header{
 
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url("images/htmlimage.jpg");
     background-size:auto;
@@ -21,7 +21,7 @@ header{
     border-style: solid;
     border-color: darkgrey;
     
-}
+}*/
 
 
 .main-nav{
@@ -51,8 +51,8 @@ header{
 }
 
 #myPic{
-    height: 150px;
-    width: 90px;
+    padding-top: 70px;
+    height: 300px;
     margin-left: 10px;
 }
 
@@ -60,7 +60,7 @@ header{
 .btn{
     color: white;
     text-decoration:none;
-    padding:5px 5px;
+    /*padding:5px 5px;*/
     border-radius:10px;
     font-weight: bold;
     background-color: dodgerblue;
@@ -69,16 +69,15 @@ header{
 }*
 
 .aboutMe{
+
     width:70%;
     text-align: center;
     margin-left:15%;
     padding-bottom: 20px;
-    color: dodgerblue;
+    color: Black;
     font-family: 'Acme', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    background-color: white;
-
 
 }
 span{
@@ -99,10 +98,14 @@ span#mySlogan{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    color: black;
 }
 
 .features{
-    background-color: white;
-    background-size:cover;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1)),url("images/htmlimage.jpg");
+    background-size:auto;
     background-position: bottom;
+}
+.trial{
+    overflow: hidden;
 }
