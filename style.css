@@ -5,23 +5,11 @@ h1{
 
 body {
     font-family: 'Century Gothic';
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("images/MarvelBack.jpg");
     background-size: cover;
     background-position: center;
 }
 
 
-
-/*header{
-
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url("images/htmlimage.jpg");
-    background-size:auto;
-    background-position:center;
-    height:100%;
-    border-style: solid;
-    border-color: darkgrey;
-    
-}*/
 
 
 .main-nav{
