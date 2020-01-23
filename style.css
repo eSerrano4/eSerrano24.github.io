@@ -1,99 +1,191 @@
-
-h1{
-    font-weight:bold;
+/*body {
+  display: grid;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Century Gothic";
+  background-size: cover;
+  background-position: center;
 }
 
-body {
-    font-family: 'Century Gothic';
-    background-size: cover;
-    background-position: center;
+header {
+  display: flex;
+  background-color: #216e8f;
+  //background-color: dodgerblue; or #004d75
+  height: 40px;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
-
-
-.main-nav{
-    list-style:none;
-    float:right;
-    margin-top:30px;
-    margin-right:60px;
+header nav {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
 }
 
-.main-nav li{
-    display: inline-block;
-    margin-left:60px;
+nav a {
+  font-family: "Lobster";
+  color: aliceblue;
+  margin: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+#myPic {
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.main-nav li a{
-    color:white;
-    text-decoration:none;
-    font-size:110%;
-    font-weight:bold;
+#siteTitle {
+  display: grid;
+  color: aliceblue;
+  font-size: 32px;
+  text-decoration: none;
+  font-family: "Lobster";
+  margin-left: 5px;
 }
 
-.main-nav li a:hover{
-    color:skyblue;
-    border-bottom:2px solid skyblue;
-    transition:all 0.5s ease-in;
-    padding:5px 0;
+.doneProjects {
+  display: grid;
+  min-height: 70vh;
+  grid-gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 40px 400px;
+}
+.projectTitle {
+  font-family: "Lobster";
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+.projectOne {
+  margin-left: 1em;
+  margin-top: 1em;
+  background-color: #216e8f;
+}
+.projectTwo {
+  margin-top: 1em;
+  background-color: #216e8f;
+}
+.projectThree {
+  margin-top: 1em;
+  background-color: #216e8f;
+}
+.projectFour {
+  margin-right: 1em;
+  margin-top: 1em;
+  background-color: #216e8f;
 }
 
-#myPic{
-    padding-top: 70px;
-    height: 300px;
-    margin-left: 10px;
+.contactMe {
+  display: grid;
+  min-height: 70vh;
+  background-color: #216e8f;
+}
+#contactMeTitle {
+  color: white;
+  font-family: "Lobster";
+  text-align: center;
 }
 
+@media screen and (max-width: 870px) {
+  nav {
+    justify-content: space-around;
+  }
+  #siteTitle {
+    font-size: 24px;
+  }
 
-.btn{
+  nav a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  nav {
+    flex-direction: column;
+    align-items: left;
+  }
+  #siteTitle {
+    font-size: 17px;
+  }
+  nav a {
+    font-size: 14px;
+  }
+}*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+
+
+}
+
+.mainGrid {
+    display: grid;
+    grid-template-rows: 5;
+
+}
+
+header {
+    background-color: #216e8f;
+    display: grid;
+    grid-template-columns: 2;
+    height: 50px;
+}
+
+.slogan {
+    grid-column: 1 / 2;
+    padding-left: 15px;
+    padding-top: 10px;
     color: white;
-    text-decoration:none;
-    /*padding:5px 5px;*/
-    border-radius:10px;
-    font-weight: bold;
-    background-color: dodgerblue;
-    
-    
-}*
-
-.aboutMe{
-
-    width:70%;
-    text-align: center;
-    margin-left:15%;
-    padding-bottom: 20px;
-    color: Black;
-    font-family: 'Acme', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-
-}
-span{
-    position: absolute;
-}
-span#mySlogan{
-    top:0;
-    color: honeydew;
-    font-weight: bolder;
-    font-size: 20px;
-    margin-left: 10%;
-    margin-top: 35px;
-
+    font-size: 25px;
 
 }
 
-.aboutMeHead{
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    color: black;
+.navBar {
+    display: flex;
+    flex-direction: row;
+    grid-column: 2/3;
+    justify-content: space-evenly;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 15px;
 }
 
-.features{
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1)),url("images/htmlimage.jpg");
-    background-size:auto;
-    background-position: bottom;
+.navBar a {
+    color: white;
+    text-decoration: none;
 }
-.trial{
-    overflow: hidden;
+
+.aboutMe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 70vh;
+}
+
+.imageName {
+    padding-top: 30px;
+    padding-left: 250px;
+    grid-column: 1/3;
+
+}
+
+#name {
+    font-size: 40px;
+    padding-left: 38px;
+}
+
+#workTitle {
+    padding-left: 40px;
+}
+
+.projects {
+    display: grid;
+    min-height: 70vh;
+    background-color: #216e8f;
+
 }
