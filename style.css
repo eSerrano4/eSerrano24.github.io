@@ -120,14 +120,11 @@ nav a {
     padding: 0;
     margin: 0;
     font-family: 'Lobster', cursive;
-
-
 }
 
 .mainGrid {
     display: grid;
     grid-template-rows: 5;
-
 }
 
 header {
@@ -135,6 +132,9 @@ header {
     display: grid;
     grid-template-columns: 2;
     height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .slogan {
@@ -163,12 +163,13 @@ header {
 
 .aboutMe {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     min-height: 70vh;
+    padding-right: 15px;
 }
 
 .imageName {
-    padding-top: 30px;
+    padding-top: 70px;
     padding-left: 250px;
     grid-column: 1/3;
 
@@ -180,12 +181,38 @@ header {
 }
 
 #workTitle {
-    padding-left: 40px;
+    padding-left: 65px;
+}
+
+.info {
+    grid-column: 3/5;
+    padding-top: 100px;
+    padding-left: 15px;
+    font-size: 25px;
 }
 
 .projects {
     display: grid;
+    grid-gap: 5px;
     min-height: 70vh;
     background-color: #216e8f;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 40px 400px;
+    padding-top: 10px;
+    text-align: center;
+    ;
+}
 
+#projectTitle {
+    grid-column: 1/5;
+    color: white;
+    font-size: 40px;
+}
+
+.projects .projectDisplay {
+    grid-row: 2/3;
+    margin-top: 10px;
+    background-color: lightgray;
+    text-align: left;
 }
