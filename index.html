@@ -43,22 +43,42 @@
             <div class="projectDisplay1 card" id="p1">Project 1</div>
             <div class="projectDisplay1 card" id="p2"><img src="images/diceGame.png" id="diceGamePic">
             </div>
-            <div class="projectDisplay2 card" id="p3">Project 3</div>
+            <div class="projectDisplay2 card" id="p3"><img src="images/Fleather.jpeg" id="fleatherPic"></div>
             <div class="projectDisplay2 card" id="p4">Project 4</div>
         </div>
         <div class="contactInfo" id="contactInfo">
             <h1><u>Contact Information</u></h1>
             <div>
-                <form>
-                    <label for="fname">First Name:</label><br>
-                    <input id="fname" placeholder="Your first name.."><br><br>
+                <form name="submit-to-google-sheet">
+                    <form name="submit-to-google-sheet">
+                        <input name="email" type="email" placeholder="Email" required><br>
 
-                    <label for="lname">Last Name:</label><br>
-                    <input id="lname" placeholder="Your last name.."><br><br>
+                        <label for="firstName">First Name:</label>
+                        <input name="firstName" type="text" placeholder="First Name"><br <label for="lastName">Last
+                        Name:</label>
+                        <input name="lastName" type="text" placeholder="Last Name"><br>
 
-                    <label for="subject">Subject:</label><br>
-                    <textarea id="subject" placeholder="Write message.."></textarea><br><br>
+                        <textarea id="subject" name="subject" placeholder="Write something.."></textarea><br>
+
+                        <button type="submit">Send</button>
+                    </form>
                 </form>
+
+                <script>
+                    const scriptURL =
+                        "https://script.google.com/macros/s/AKfycbyd3GF8leB2CBxltJ7q8DCUtRlcV5t8j86G30zNX9VyIGNdLdAf/exec"
+                    const form = document.forms['submit-to-google-sheet']
+
+                    form.addEventListener('submit', e => {
+                        e.preventDefault()
+                        fetch(scriptURL, {
+                                method: 'POST',
+                                body: new FormData(form)
+                            })
+                            .then(response => console.log('Success!', response))
+                            .catch(error => console.error('Error!', error.message))
+                    })
+                </script>
             </div>
             <!--<div class="container">
                 <label for="fname">First Name</label>
