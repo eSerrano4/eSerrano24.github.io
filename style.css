@@ -6,7 +6,7 @@
 
 .mainGrid {
   display: grid;
-  grid-template-rows: 50px 80vh 160vh 85vh 50px;
+  grid-template-rows: 50px 80vh 160vh 86vh 50px;
 }
 
 header {
@@ -87,7 +87,6 @@ header {
   padding-top: 45px;
   text-align: center;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
-
 }
 
 #projectTitle {
@@ -114,7 +113,6 @@ header {
   text-align: center;
   padding-top: 40px;
   display: grid;
-
 }
 
 #diceGamePic {
@@ -136,9 +134,10 @@ header {
 
 #p3 {
   grid-column: 1/3;
-  text-align: left;
+  text-align: center;
   display: grid;
-  grid-template-rows: 350px 1em;
+  grid-template-rows: 350px 150px;
+  text-align: center;
 }
 
 #aboutRGB {
@@ -150,43 +149,89 @@ header {
   height: 520px;
 }
 
+#fleatherPic:hover {
+  border-radius: 0.001px;
+  border-color: black;
+}
+
 #p4 {
   grid-column: 3/5;
 }
 
 #rgbGame {
+  grid-row: 1/2;
   width: 695px;
-  height: 400px;
+  height: 350px;
 }
 
 .contactInfo {
   grid-row: 4/5;
   display: grid;
-  grid-template-rows: 50px 1fr 1fr;
+  grid-template-rows: 50px 1fr;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
   padding-top: 20px;
-  color: cornsilk;
+  color: black;
   background-color: rgb(105, 105, 105);
-  align-content: center;
-
-
 }
 
 .contactInfo h1 {
   grid-column: 1/3;
 }
 
+
+
+label {
+  width: 100px;
+  height: 20px;
+  display: inline-block;
+}
+
+textarea {
+  margin-top: 10px;
+  height: 225px;
+  width: 350px;
+}
+
+#sendMessage {
+  grid-column: 1/2;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  font-size: 21px;
+  padding: 80px;
+}
+
+#submitBtn {
+  background-color: #4caf59;
+  width: 100px;
+  height: 30px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+}
+
 #googleSheet {
-  height: 80vh;
-  font-size: 20px;
-  background-color: rgb(169, 169, 169);
-  width: 60vh;
+  background-color: rgb(243, 241, 241);
 }
 
 #myContactInfo {
+  grid-column: 2/3;
   padding-top: 50px;
   font-size: 30px;
+}
+
+#myEmail {
+  background-color: rgb(243, 241, 241);
+  height: 50px;
+  margin: 40px;
+  border-radius: 6px;
+}
+
+#myNumber {
+  background-color: rgb(243, 241, 241);
+  height: 50px;
+  margin: 40px;
+  border-radius: 6px;
 }
 
 .footer {

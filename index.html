@@ -1,119 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <head>
-    <title>Eric Serrano's Webpage</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="https://kit.fontawesome.com/5103b64918.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <title>Eric Serrano's Webpage</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/5103b64918.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <header>
-      <div class="slogan">Programming, Apps, & Life</div>
-      <div class="navBar">
-        <a href="https://www.linkedin.com/in/eserrano4/" target="_blank"
-          ><i class="fab fa-linkedin fa-lg"></i
-        ></a>
-        <a href="https://github.com/eserrano24" target="_blank"
-          ><i class="fab fa-github fa-lg"></i
-        ></a>
-        <a href="#projects">Projects</a>
-        <a href="#">Education</a>
-        <a href="#contactInfo">Contact Me</a>
-      </div>
-    </header>
-    <div class="mainGrid">
-      <div class="aboutMe" id="aboutMe">
-        <div class="imageName">
-          <img
-            src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Prescription02&hairColor=Black&facialHairType=BeardLight&facialHairColor=Black&clotheType=BlazerSweater&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
-          />
-          <h1 class="name" id="name">Eric Serrano</h1>
-          <h2 class="workTitle" id="workTitle">Web Developer</h2>
-        </div>
-        <div class="info">
-          <h1><u>About Me</u></h1>
-          <p>
-            Hi, Im Eric Serrano a front end developer from LA. I have a
-            bachelors degree in computer science. My primary programming
-            language is javascript but I also have experience in java and C. I
-            have taken multiple courses on web development and am currently
-            learning react JS.
-          </p>
-        </div>
-      </div>
-      <div class="projects" id="projects">
-        <h1 id="projectTitle"><u>Projects</u></h1>
-        <div class="projectDisplay1 card" id="p1">
-          <h1>React Project Coming Soon</h1>
-        </div>
-        <div class="projectDisplay1 card" id="p2">
-          <a href=""><img src="images/diceGame.png" id="diceGamePic"/></a>
-          <div id="aboutDG">
-            <h2 id="dGTitle">Dice Rolling Game</h2>
-            <p>
-              Game that has users take turn rolling dice, when one user hits
-              winning number they win the game. Project was created with JS as
-              part of a JS bootcamp course
-            </p>
-          </div>
-        </div>
-        <div class="projectDisplay2 card" id="p3">
-          <a href="https://github.com/eSerrano24/rgbGame"
-            ><img src="images/rgbGame.png" id="rgbGame"
-          /></a>
-          <div id="aboutRGB"></div>
-        </div>
-        <div class="projectDisplay2 card" id="p4">
-          <img src="images/Fleather.jpeg" id="fleatherPic" />
-        </div>
-      </div>
-      <div class="contactInfo" id="contactInfo">
-        <h1><u>Contact Information</u></h1>
-        <div>
-          <form name="submit-to-google-sheet" id="googleSheet">
-            <label for="email">Email:</label>
-            <input
-              name="email"
-              type="email"
-              placeholder="Email"
-              required
-            /><br />
-
-            <label for="firstName">First Name:</label>
-            <input
-              name="firstName"
-              type="text"
-              placeholder="First Name"
-            /><br />
-            <label for="lastName"> LastName:</label>
-            <input name="lastName" type="text" placeholder="Last Name" /><br />
-
-            <textarea
-              id="subject"
-              name="subject"
-              placeholder="Write something.."
-            ></textarea
-            ><br />
-
-            <button type="submit">Send</button>
-          </form>
-        </div>
-        <div id="myContactInfo">
-          <p>Email: jester2488@yahoo.com</p>
-          <p>Phone Number: (213)1234567</p>
-        </div>
-      </div>
-      <footer class="footer">
-        <p>copyright eSerrano24</p>
-      </footer>
+<body>
+  <header>
+    <div class="slogan">Programming, Apps, & Life</div>
+    <div class="navBar">
+      <a href="https://www.linkedin.com/in/eserrano4/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="https://github.com/eserrano24" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+      <a href="#">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contactInfo">Contact Me</a>
     </div>
+  </header>
+  <div class="mainGrid">
+    <div class="aboutMe" id="aboutMe">
+      <div class="imageName">
+        <img
+          src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Prescription02&hairColor=Black&facialHairType=BeardLight&facialHairColor=Black&clotheType=BlazerSweater&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light" />
+        <h1 class="name" id="name">Eric Serrano</h1>
+        <h2 class="workTitle" id="workTitle">Web Developer</h2>
+      </div>
+      <div class="info">
+        <h1><u>About Me</u></h1>
+        <p id="personalInfo">
+        </p>
+      </div>
+    </div>
+    <div class="projects" id="projects">
+      <h1 id="projectTitle"><u>Projects</u></h1>
+      <div class="projectDisplay1 card" id="p1">
+        <h1>React Project Coming Soon</h1>
+      </div>
+      <div class="projectDisplay1 card" id="p2">
+        <a href=""><img src="images/diceGm.png" onmouseover="" id="diceGamePic" /></a>
+        <div id="aboutDG">
+          <h2 id="dGTitle">Dice Rolling Game</h2>
+          <p id="dgInfo"></p>
+        </div>
+      </div>
+      <div class="projectDisplay2 card" id="p3">
+        <a href="https://github.com/eSerrano24/rgbGame"><img src="images/rgbGame.png" id="rgbGame" /></a>
+        <div id="aboutRGB">
+          <h2>RGB Game</h2>
+          <p id="cgInfo"></p>
+        </div>
+      </div>
+      <div class="projectDisplay2 card" id="p4">
+        <img src="images/Fleather.jpeg" id="fleatherPic" />
+      </div>
+    </div>
+    <div class="contactInfo" id="contactInfo">
+      <h1><u>Contact Information</u></h1>
+      <div id="sendMessage">
+        <form name="submit-to-google-sheet" id="googleSheet" onsubmit="return validateForm()">
+          <label for="email">Email:</label>
+          <input name="email" type="email" placeholder="Email" required /><br />
 
-    <script type="text/javascript" src="app.js"></script>
-  </body>
+          <label for="firstName">First Name:</label>
+          <input name="firstName" type="text" placeholder="First Name" required /><br />
+          <label for="lastName"> LastName:</label>
+          <input name="lastName" type="text" placeholder="Last Name" required /><br />
+          <textarea id="subject" name="subject" placeholder="Write something.."></textarea><br />
+          <button id="submitBtn" type="submit">Send</button>
+        </form>
+      </div>
+      <div id="myContactInfo">
+        <p id="myEmail">Email: jester2488@yahoo.com</p>
+        <p id="myNumber">Phone Number: (213)413-5486</p>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>copyright eSerrano24</p>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
 </html>
