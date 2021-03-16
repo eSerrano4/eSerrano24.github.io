@@ -1,56 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta
-      name="description"
-      content="Eserrano is a front end web developer who specializes in html,css,and JS"
-    />
-    <meta name="robots" content="index,follow" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>Eric Serrano | Web Developer</title>
-  </head>
-  <body>
-    <header class="main-head">
-      <nav>
-        <div class="logo">
-          <img src="./icons/code.svg" alt="logo" />
-          <h1>ESerrano24</h1>
-        </div>
-        <ul>
-          <li><a class="active" href="/">Home</a></li>
-          <li><a href="./projects/">Projects</a></li>
-          <li><a href="./contact/">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section class="intro">
-      <div class="intro-text">
-        <h2>Eric Serrano</h2>
-        <h3>
-          Front End Web <br />
-          Developer
-        </h3>
-        <p>
-          Los Angeles based web developer, with a bachelors degree in Computer
-          Science.
-        </p>
-        <div class="intro-social">
-          <a href="https://github.com/eSerrano24" target="_blank"
-            ><img src="./icons/github.svg" alt="github-social-link"
-          /></a>
-          <a href=" www.linkedin.com/in/eserrano4" target="_blank"
-            ><img src="./icons/linked-in.svg" alt="linkedin-social-link"
-          /></a>
-        </div>
-      </div>
-      <div class="intro-images">
         <svg
           width="799"
           height="690"
@@ -255,11 +202,3 @@
             </clipPath>
           </defs>
         </svg>
-        <img class="splash" src="./img/splash.svg" alt="" />
-      </div>
-    </section>
-    <footer>
-      <h4>ESerrano24 &copy; 2021</h4>
-    </footer>
-  </body>
-</html>
